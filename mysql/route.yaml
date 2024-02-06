@@ -7,6 +7,8 @@ metadata:
   name: frontend
   namespace: mysql
 spec:
+  host: todo.apps.cluster-4j5b4.sandbox1597.opentlc.com
+    path: "/todo"
   to:
     kind: Service
     name: frontend
